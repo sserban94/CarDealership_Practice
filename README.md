@@ -1,0 +1,4 @@
+This is a Car Dealership WinForm C# project. 
+It starts by reading data from a txt file. It lets the user insert cars (model, manufacturing date, price) into a list view via a secondary form. The car manufacturers are shown via a combo box and each text box validates the input from the user (can't add numbers where there should be only letters and viceversa) and the datetimepicker validates as well by only accepting cars made in the current or previous year.
+Everything is automatically updates in a db (SQL file), information regarding the id of the car, the model, the manufacturing date, the price and the manufacturer id.
+In the main form I'm also showing the average age of all the cars in the list/table with the help of an overloaded operator.
